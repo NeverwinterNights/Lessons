@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/* -------------- */
+
+.header {
+	padding: 20px 0px 20px 0px;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.castle__header {
+	font-weight: 900;
+	font-size: 22px;
+	color: #00293f;
+	text-align: center;
+}
+.main {
+}
+.main__body {
+}
+.main__text {
+	color: coral;
+	margin: 20px 0px 20px 0px;
+}
+
+.main__text p {
+	margin: 10px 0 0 0;
+}
+
+p span {
+	color: green;
+}
+
+.what {
+	color: mediumslateblue;
+}
+.main__link {
+	color: yellowgreen;
+}
+
+#parag {
+	color: black;
+}
+.advantages-main {
+}
+.advantages-main__title {
+	font-weight: 900;
+	font-size: 16px;	
+	color: #5a5a5a;
+	margin: 0px 0px 20px 0px;
+}
+.advantages-main__list {
+	color: blue;
+	margin: 0px 0px 20px 0px;
+}
+.footer {
+}
+.footer__text {
+	text-align: center;
+}
