@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+
+@font-face {
+	font-family: "Roboto Mono";
+	src: url("../fonts/RobotoMono-Thin.woff2") format("woff2"), url("../fonts/RobotoMono-Thin.woff") format("woff");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	font-size: 14px;
+	line-height: 1;
+}
+/* -------------- */
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+/* -------------- */
+
+img {
+	width: 200px;
+}
+
+.header {
+	margin: 0 0 20px 0;
+}
+
+
+.list {
+	display: flex;
+}
+.list a {
+	color: rgba(255, 0, 13, 0.342);
+	margin: 0 10px;
+}
+
+
+
+.simple__title {
+	font-size: 36px;
+	font-family: "Oswald";
+	font-weight: 700;
+	text-align: center;
+	text-shadow: 2px 2px 3px rgb(9, 221, 55);
+	letter-spacing: 15px;
+}
+
+.simple__text {
+	font-family: "Roboto Mono";
+	font-size: 20px;
+	line-height: 26px;
+}
+
+.material__title {
+	font-size: 46px;
+	font-family: "Oswald";
+	text-align: center;
+}
+.material__image {
+	text-align: right;
+}
+.material__description {
+}
+.material__text {
+	font-family: "Ranchers";
+	text-indent: 80px;
+	font-size: 56px;
+
+	line-height: 76px;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.835);
+}
+.advantages {
+	margin: 20px 0;
+}
+.advantages__title {
+	font-size: 56px;
+	font-family: "Oswald";
+	text-align: center;
+}
+.advantages__image {
+	text-align: right;
+}
+.advantages__advan {
+	font-family: "Roboto Mono";
+	font-size: 36px;
+	color: blue;
+}
+.advantages__advan span {
+	text-decoration: line-through;
+	text-transform: uppercase;
+}
+.footer__text {
+	text-align: center;
+	font-size: 30px;
+}
