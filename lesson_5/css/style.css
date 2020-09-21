@@ -1,0 +1,186 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	font-size: 14px;
+	line-height: 1;
+	min-height: 100%;
+}
+/* -------------- */
+.wrapper {
+	height: 100%;
+	overflow: hidden;
+}
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+/* -------------- */
+
+.header {
+	margin: 20px 10px 50px 10px;
+}
+
+.headericom {
+	font-family: "Hammersmith One";
+	font-size: 50px;
+	display: inline;
+	margin: 0 100px 0 0;
+}
+.headermenu {
+	display: inline-block;
+}
+.navig {
+}
+.navig li {
+	display: inline-block;
+	margin: 0 50px 0 0;
+}
+
+.navig a {
+	font-size: 20px;
+	color: coral;
+}
+
+.top {
+	margin: 0 0 50px 0;
+}
+
+.title {
+	font-family: "Roboto";
+	font-weight: 700;
+	text-align: center;
+	font-size: 40px;
+	margin: 0 0 50px 0;
+	color: darksalmon;
+	word-spacing: 25px;
+	letter-spacing: 5px;
+    text-shadow: 12px 2px 10px darksalmon;
+}
+.titledate {
+	font-style: italic;
+	color: rgb(5, 173, 5);
+	text-align: right;
+	margin: 0 0 5px 0;
+}
+.titlesubtitle {
+	font-family: "Roboto";
+	font-size: 16px;
+}
+
+
+.image {
+	margin: 0 0 30px 0;
+}
+.imagetitle {
+	text-align: center;
+	font-family: "Roboto";
+	font-size: 26px;
+	font-weight: 900;
+	margin: 0 0 20px 0;
+	text-transform: uppercase;
+}
+.imagerow {
+	font-size: 0;
+}
+.pic1 {
+	max-width: 50%;
+}
+.pic2 {
+	max-width: 50%;
+}
+.imagetext {
+	background-color: rgb(0, 247, 144);
+	padding: 20px 10px 10px 40px;
+	font-family: "Hammersmith One";
+
+}
+
+
+.row {
+	margin: 20px 0;
+}
+.rowtitile {
+	text-align: center;
+	font-family: "Roboto";
+	font-size: 26px;
+	font-weight: 900;
+	margin: 0 0 20px 0;
+	text-transform: uppercase;
+}
+.rowpic {
+	margin: 0 auto;
+	max-width: 2200px;
+	
+}
+
+.rowpic img {
+	width: 700px;
+	max-height: 333px;
+}
+
+
+
+.gallery {
+	margin: 20px 0 10px 0;
+}
+
+.gallerytitle {
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "Roboto";
+	font-size: 26px;
+	font-weight: 900;
+	margin: 0 0 20px 0;
+}
+.galleryitem {
+	display: inline-block;
+	padding: 0px 0px 10px 0px;
+}
+
+.galleryitem img {
+	width: 200px;
+}
+
+.footer {
+	background-color:darkkhaki
+}
+
+.footercopy {
+	text-align: center;
+	font-family: "Roboto";
+	font-size: 26px;
+	font-weight: 900;	
+	text-transform: uppercase;
+	padding: 20px;
+}
