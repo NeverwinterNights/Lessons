@@ -1,0 +1,330 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	font-size: 16px;
+	line-height: 1;
+	min-height: 100%;
+}
+/* -------------- */
+.wrapper {
+	height: 100%;
+	overflow: hidden;
+}
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+/* -------------- */
+.header {
+	font-size: 0;
+	margin: 20px 0;
+}
+
+.left {
+	background-color: forestgreen;
+	display: inline-block;
+	min-width: 50%;
+	font-size: 20px;
+	text-align: center;
+	padding: 20px 0;
+}
+.right {
+	background-color: khaki;
+	display: inline-block;
+	min-width: 50%;
+	font-size: 20px;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.top {
+	display: inline-block;
+	background-color: magenta;
+
+	width: 100%;
+
+	margin: 0 0 20px 0;
+}
+
+.top0 {
+	overflow: auto;
+	height: 50px;
+}
+
+.top1 {
+	min-height: 50px;
+}
+.top2 {
+	height: 50px;
+	overflow: hidden;
+}
+.top3 {
+	display: none;
+}
+
+.images img {
+	width: 100%;
+}
+/* .images img:hover {
+	display: none;
+} */
+
+.images {
+	margin: 20px 0;
+}
+
+.block2 {
+	font-size: 0;
+	display: flex;
+	align-items: center;
+}
+.logo {
+	font-size: 60px;
+	font-weight: 700;
+	display: inline-block;
+	margin: 0 50px 0 0;
+}
+.nav {
+	text-align: center;
+	display: flex;
+	flex: 0 1 100%;
+	justify-content: space-between;
+	font-size: 0;
+}
+
+.nav a {
+	margin: 0 50px 0 0;
+	font-size: 14px;
+}
+.nav a:last-child {
+	margin: 0;
+}
+
+.nav a:hover {
+	border-bottom: 1px solid black;
+	background-color: mediumaquamarine;
+	
+}
+
+.logo2 {
+	font-size: 40px;
+	font-weight: 700;
+	background-color: mediumaquamarine;
+	text-align: center;
+}
+
+.new {
+	max-height: 200px;
+	margin: 20px 0 50px 0;
+	overflow: auto;
+}
+
+.one {
+	background-color: blue;
+	display: inline-block;
+	max-width: 50%;
+	font-size: 18px;
+	padding: 30px;
+	border-radius: 30px;
+}
+.two {
+	background-color: olive;
+	display: inline-block;
+	max-width: 50%;
+	font-size: 18px;
+	padding: 30px;
+	border-radius: 30px;
+}
+
+.class__wrapper {
+	font-size: 0;
+}
+
+.contenttext {
+	margin: 20px 0;
+}
+
+.content {
+	background-color: orange;
+	padding: 20px 10px;
+	border-radius: 10px;
+	border: 15px solid black;
+}
+.content:hover {
+	border: 15px solid transparent;
+}
+.title {
+	font-size: 30px;
+	text-align: center;
+	margin: 0 0 30px 0;
+}
+.text {
+	font-size: 18px;
+
+	padding: 0px 0px 0px 50px;
+}
+.link {
+	font-size: 18px;
+	display: inline-block;
+	margin: 30px 0 0 0;
+}
+
+.minusmar {
+	font-size: 0;
+}
+.container {
+}
+.minusmarbody {
+	margin: 0 0px 0 -200px;
+}
+.mar {
+	display: inline-block;
+	max-width: 390px;
+	margin: 0 100px 0 0;
+}
+.mar:last-child {
+	margin: 0;
+}
+
+.mar img {
+	width: 100%;
+	height: 260px;
+	border-radius: 50px 0 0 50px;
+}
+
+.mar-left {
+}
+.mar-center {
+}
+.mar-right {
+}
+
+.imager {
+	margin: 50px 0;
+	border-radius: 50px;
+	background: url("../img/unnamed.jpg") 0 0 / cover no-repeat;
+
+	height: 500px;
+	box-shadow: 0 0 0 10px coral;
+}
+
+.rounds {
+	margin: 0 0 30px 0;
+}
+.container {
+}
+.roundstitle {
+	font-family: Manrope;
+	font-weight: 700;
+	font-size: 26px;
+	text-align: center;
+	margin: 0 0 15px 0;
+}
+.roundsbody {
+}
+.roundsitem {
+	display: inline-block;
+	margin: 0px 98px 0px 0;
+}
+
+.roundsitem:last-child {
+	margin: 0;
+}
+
+.roundsitem img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.roundimage {
+	margin: 0 0 10px 0;
+	cursor: pointer;
+}
+
+.subtitle {
+	text-align: center;
+}
+
+.roundimagecat1 img {
+	border: 10px solid transparent;
+}
+.roundimagecat1 img:hover {
+	border: 10px solid tomato;
+	box-shadow: 2px 5px 50px yellow;
+}
+
+.roundimagecat2 {
+}
+
+.roundimagecat2:hover span {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.roundimagecat3 img:hover {
+	opacity: 0.5;
+	box-shadow: 2px 5px 50px green;
+}
+
+.roundimagecat4 {
+	border-radius: 50%;
+}
+
+.roundimagecat4:hover {
+	box-shadow: 2px 5px 50px red;
+}
+
+.twoo {
+	display: none;
+}
+
+.roundimagecat5:hover .onee {
+	display: none;
+}
+
+.roundimagecat5:hover .twoo {
+	display: block;
+}
+
+.footer {
+	background-color: tomato;
+}
+
+.footertext {
+	padding: 15px 0px 15px 0px;
+	text-align: center;
+	font-size: 50px;
+	font-family: Grandstander;
+}
