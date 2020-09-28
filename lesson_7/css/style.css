@@ -47,7 +47,7 @@ body {
 }
 /* -------------- */
 .lending {
-	background: #e8e8e8 url(../img/bg.png) 52% 20% no-repeat; 
+	background: #e8e8e8 url("../img/bg.png") 52% 20% no-repeat; 
 	padding: 168px 0 137px 0;
 }
 .lending__up {
