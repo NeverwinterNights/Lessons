@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Домашка 10</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="forms">
+        <div class="form-password">
+          <div class="password__title">Восстановление пароля</div>
+          <div class="password__text">Введите Email, на него будет выслан новый пароль</div>
+          <form class="password" action="#">
+            <div class="password__imp">
+              <input autocomplete="off" type="text" name="form[]" data-value="" placeholder="Почта*" class="input" />
+            </div>
+            <div class="input__back"><a href="#">Вернуться в форму авторизации</a></div>
+            <button type="submit" class="form__btn">Отправить</button>
+            <div class="btn__if-text">* Если вы не получили письмо с паролем, проверьте папку Спам.</div>
+            <div class="password__footer footer-password">
+              <div class="footer-password__text">У вас нет аккаунта?</div>
+              <a href="" class="footer-password__sign">Регистрация</a>
+            </div>
+          </form>
+        </div>
+        <div class="form-enter">
+          <div class="form-enter__title">Вход</div>
+          <form class="enter" action="#">
+            <div class="mail">
+              <input autocomplete="off" type="text" name="form[]" data-value="" placeholder="Почта*" class="input" />
+            </div>
+            <div class="pas">
+              <input autocomplete="off" type="password" name="form[]" data-value="" placeholder="Пароль*" class="input" />
+            </div>
+            <div class="line-body">
+              <div class="forgot">
+                <input id="forgot-checkbox" type="checkbox" name="form[]" value="" class="forgot-checkbox" />
+                <label class="checkbox-label" for="forgot-checkbox">Запомнить меня</label>
+              </div>
+              <div class="form-enter__text"><a href="">Забыли пароль?</a></div>
+            </div>
+            <button type="submit" class="enter__btn">Войти</button>
+          </form>
+          <div class="form-enter-text">Войти через:</div>
+          <div class="form-enter-social">
+            <div class="form-enter-social__wk icon"><a href=""></a></div>
+            <div class="form-enter-social__fb icon"><a href=""></a></div>
+            <div class="form-enter-social__ok icon"><a href=""></a></div>
+          </div>
+          <div class="form-enter-row">
+            <div class="form-enter-row__ak">У вас нет аккаунта?</div>
+            <div class="form-enter-row__reg"><a href="">Регистрация</a></div>
+          </div>
+        </div>
+
+        <div class="form-registration">
+          <div class="form-registration__title">Регистрация</div>
+          <form class="form-registration__form" action="#">
+            <div class="form-registration__items">
+              <div class="item">
+                <input autocomplete="off" type="text" name="form[]" data-value="" placeholder="Имя*" class="input" />
+              </div>
+              <div class="item">
+                <input autocomplete="off" type="text" name="form[]" data-value="" placeholder="Фамилия*" class="input" />
+              </div>
+              <div class="item">
+                <input autocomplete="off" type="text" name="form[]" data-value="" placeholder="Логин*" class="input" />
+              </div>
+              <div class="item">
+                <input autocomplete="off" type="text" name="form[]" data-value="" placeholder="EMail*" class="input" />
+              </div>
+              <div class="item">
+                <input autocomplete="off" type="password" name="form[]" data-value="" placeholder="Пароль*" class="input" />
+              </div>
+              <div class="item">
+                <input autocomplete="off" type="password" name="form[]" data-value="" placeholder="Повторите пароль*" class="input" />
+              </div>
+            </div>
+            <div class="form-registration__radio radio-registration">
+              <div class="radio-registration__man">
+                <input id="radio-man" checked type="radio" name="form[]" data-value="" class="radio" />
+                <label for="radio-man" class="label-man">Мужчина</label>
+              </div>
+              <div class="radio-registration__woman">
+                <input id="radio-woman" type="radio" name="form[]" data-value="" class="radio" />
+                <label for="radio-woman" class="label-woman">Женщина</label>
+              </div>
+            </div>
+            <div class="form-registration__agre">
+              <div class="form-registration__checkbox">
+                <input id="checkbox-agre" type="checkbox" name="form[]" data-value="" class="checkbox-agre" />
+                <label class="checkbox-agre-label" for="checkbox-agre">Я согласен с <a href="#">Условия и правила</a></label>
+              </div>
+            </div>
+            <button type="submit" class="form-registration__btn">Регистрация</button>
+          </form>
+          <div class="have-ac">У вас есть аккаунт? <a href="#">Войти</a></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
