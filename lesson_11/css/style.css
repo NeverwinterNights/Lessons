@@ -1,0 +1,607 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-ExtraBold.woff2") format("woff2"), url("../fonts/Gilroy-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+ol li,
+ul li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html,
+body {
+  min-height: 100%;
+  font-size: 14px;
+  line-height: 1;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+/* -------------- */
+.wrapper {
+  height: 100%;
+  overflow: hidden;
+}
+._container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+/* -------------- */
+
+.top__header{
+  position: fixed;
+  left: 50%;
+  margin: 30px 0px 0px -550px;
+  
+}
+.header {
+  
+}
+.header__container {
+}
+
+.header__body {
+}
+.header-top {
+  display: flex;
+  margin: 0px 0px 25px 0px;
+}
+.header-left {
+  flex: 0 0 380px;
+}
+.header-left__row {
+  display: flex;
+}
+.header-left__logo {
+  font-family: Gilroy;
+  font-weight: bold;
+  font-size: 52px;
+  position: relative;
+  margin: 0px 30px 0px 0px;
+}
+
+.header-left__logo:hover a {
+  color: black;
+}
+
+
+.header-left__logo a {
+  color: #e1e1e1;
+}
+
+.header-left__logo::after {
+  content: "";
+  background: #d8d8d8;
+  border: 1px solid #89afef;
+  position: absolute;
+  width: 2px;
+  height: 40px;
+  top: 5px;
+  right: -25px;
+}
+
+.header-left__text {
+  font-family: Gilroy;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #5d5d5d;
+  padding: 0px 0px 0px 20px;
+}
+.header-center {
+  flex: 0 0 320px;
+  margin: 0px 10px 0px 0px;
+}
+.header-center__row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-center__item {
+  width: 43px;
+  height: 43px;
+  background: #2dd038 url("../img/WhatsApp.svg") center no-repeat;
+  box-shadow: 0px 8px 25px rgba(45, 208, 56, 0.497678);
+  border-radius: 50%;
+  margin: 0px 25px 0px 0px;
+}
+
+.header-center__item:hover {
+  background: #00f710 url("../img/WhatsApp.svg") center no-repeat;;
+}
+
+
+.header-center__item:last-child {
+  margin: 0px 0px 0px 0px;
+}
+
+.header-center__item_viber {
+  width: 43px;
+  height: 43px;
+  background: #7b519d url("../img/viber-logo.svg") center no-repeat;
+  box-shadow: 0px 8px 25px rgba(123, 81, 157, 0.503797);
+  border-radius: 50%;
+}
+
+.header-center__item_viber:hover {
+  background: #8c00ff url("../img/viber-logo.svg") center no-repeat;
+
+
+ }
+
+.header-center__item_telegram {
+  width: 43px;
+  height: 43px;
+  background: #5bbaf0 url("../img/telegram\ \(1\).svg") center no-repeat;
+  box-shadow: 0px 8px 25px rgba(91, 186, 240, 0.5);
+  border-radius: 50%;
+}
+
+
+.header-center__item_telegram:hover  {
+  
+  background: #009df8 url("../img/telegram\ \(1\).svg") center no-repeat;
+  
+}
+
+.header-right {
+}
+.header-right__row {
+  display: flex;
+}
+.header-right__column {
+}
+.header-right__contacts {
+}
+.header-right__tel {
+  position: relative;
+  padding: 0px 0px 0px 12px;
+  margin: 0px 0px 5px 0px;
+}
+.header-right__tel a {
+  font-family: Gilroy;
+  font-weight: bold;
+  font-size: 20px;
+  color: #333333;
+}
+
+.header-right__tel::before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: -15px;
+  width: 16px;
+  height: 16px;
+  background: url("../img/call.svg") 0 0 no-repeat;
+}
+
+
+.header-right__tel:hover a {
+  color: #b6b4b4;
+}
+
+
+
+.header-right__mail {
+  position: relative;
+  padding: 0px 0px 0px 40px;
+}
+
+
+.header-right__mail a {
+  font-family: Gilroy;
+  font-weight: 500;
+  font-size: 17px;
+  color: #333333;
+}
+
+.header-right__mail:hover a {
+  color: #b6b4b4;
+}
+.header-right__button {
+  margin: 0px 0px 0px 30px;
+}
+
+.header-right__mail::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 10px;
+  width: 16px;
+  height: 12px;
+  background: url("../img/mail.svg") 0 0 no-repeat;
+}
+
+.btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #f6bd60 0%, #e88952 100%);
+  box-shadow: 0px 8px 18px rgba(242, 147, 81, 0.450503);
+  border-radius: 3px;
+  font-family: Gilroy;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+.header-right__button:hover {
+  background: #e88952;
+}
+
+
+.header-bottom {
+  
+}
+.header-bottom__row {
+}
+.header-bottom__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-bottom__list li {
+  font-family: Gilroy;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.header-bottom__list a {
+  color: #333333;
+}
+
+
+.header-bottom__list a:hover {
+  text-decoration: underline;
+}
+
+.documents {
+  background: url("../img/bg.jpg") 0 0 / cover no-repeat;
+}
+
+.documents-man {
+  display: flex;
+  padding: 130px 0px 0px 0px;
+}
+.documents-man__left {
+  max-width: 680px;
+  padding: 130px 0px 0px 0px;
+}
+.left-man {
+}
+.left-man__title {
+  line-height: 51px;
+  text-align: left;
+  margin: 0px 0px 35px 0px;
+}
+.title {
+  font-family: Gilroy;
+  font-weight: 900;
+  font-size: 40px;
+  color: #333333;
+}
+.left-man__text {
+  margin: 0px 0px 35px 0px;
+  font-family: Gilroy;
+  font-weight: 500;
+  font-size: 24px;
+  color: #333333;
+}
+.left-man__text span {
+  font-weight: 800;
+}
+
+.left-man__button {
+  padding: 10px 66px;
+  background: linear-gradient(90deg, #87aff1 0%, #6c80cb 100%, #6c80cb 100%);
+  box-shadow: 0px 12px 20px rgba(132, 170, 237, 0.454846);
+}
+
+.left-man__button:hover {
+  background:#6c80cb;
+}
+
+
+.btn {
+}
+.documents-man__right {
+}
+.right-man {
+  margin: 25px 0px 0px 0px;
+}
+.right-man__image {
+}
+
+.services {
+  padding: 30px 0px 25px 0px;
+  margin: 0px 0px 40px 0px;
+}
+.services__container {
+}
+
+.services__title {
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+}
+
+.services-body {
+}
+.services-body__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+.services-body__column {
+  flex: 0 0 25%;
+  padding: 0 15px;
+  margin: 0px 0px 30px 0px;
+}
+
+.services-body__column:last-child {
+  margin: 0;
+}
+
+.column-services {
+}
+.column-services__item {
+  background: #ffffff;
+  box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 0px 32px 0px;
+}
+.column-services__icon {
+  margin: 0px 0px 30px 0px;
+}
+.column-services__text {
+  font-family: Gilroy;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 23px;
+  color: #333333;
+  max-width: 190px;
+  text-align: center;
+}
+
+.advantages {
+  background: #f6f6f6;
+  padding: 40px 0px 65px 0px;
+}
+
+.advantages__body {
+}
+.advantages-items {
+  display: flex;
+}
+.advantages-items__column {
+}
+.column-advantages {
+  flex: 0 0 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.column-advantages__round {
+  width: 98px;
+  height: 98px;
+  border: 1px solid #e8e8e8;
+  border-radius: 50%;
+  background: #ffffff url("../img/advan-icon1.svg") center no-repeat;
+  margin: 0px 0px 20px 0px;
+}
+.column-advantages__title {
+  font-family: Gilroy;
+  font-weight: 800;
+  font-size: 22px;
+  color: #333333;
+  margin: 0px 0px 20px 0px;
+}
+.column-advantages__text {
+  font-family: Gilroy;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  color: #333333;
+  width: 210px;
+  padding: 0 5px;
+  text-align: center;
+}
+
+.educations {
+}
+.educations__program {
+  padding: 60px 0px 120px 0px;
+}
+.program {
+}
+
+.program__title {
+  text-align: center;
+  margin: 0px 0px 65px 0px;
+}
+.program__body {
+}
+.program__row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 -12px;
+}
+.program__column {
+  flex: 0 0 25%;
+  text-align: center;
+
+  padding: 0 12px;
+}
+.program__items {
+  background: #ffffff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.0677994);
+}
+.items-program {
+}
+.items-program__column {
+  padding: 25px 0px 30px 0px;
+}
+.items-program__image {
+  margin: 0px 0px 20px 0px;
+}
+.items-program__subtitle {
+  font-family: Gilroy;
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 23px;
+  color: #333333;
+}
+.items-program__check {
+  font-family: Gilroy;
+  font-weight: 500;
+  font-size: 16px;
+  color: #53b43b;
+  position: relative;
+  margin: 0px 0px 30px 0px;
+}
+.items-program__check::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50px;
+  width: 14px;
+  height: 14px;
+  background: url("../img/check.svg") 0 0 no-repeat;
+}
+.items-program__price {
+  font-family: Gilroy;
+  font-weight: 800;
+  font-size: 22px;
+  color: #333333;
+}
+
+.news {
+}
+
+.news__title {
+  margin: 0px 0px 40px 0px;
+}
+
+.news__body {
+}
+.news__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.news__column {
+  flex: 0 1 25%;
+  padding: 0 10px;
+  margin: 0px 0px 30px 0px;
+  padding: 0 15px;  
+  
+}
+.news__column:last-child {
+  margin: 0px 0px 0px 0px;
+}
+
+.item-news {
+  display: flex;
+  flex-direction: column;
+  
+  padding: 30px 18px;
+  background: #ffffff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.0677994);
+}
+.item-news__image {
+  margin: 0px 0px 10px 0px;
+
+}
+.item-news__date {
+  margin: 0px 0px 12px 0px;
+  font-family: Gilroy;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ababab;
+  text-align: left;
+}
+.item-news__title {
+  margin: 0px 0px 12px 0px;
+  font-family: Gilroy;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 23px;
+  color: #333333;
+}
+.item-news__text {
+  font-family: Gilroy;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
