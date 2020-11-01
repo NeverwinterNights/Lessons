@@ -854,6 +854,10 @@ textarea {
   margin: 0px 0px 20px 0px;
 }
 
+.item-news__image img {
+  width: 100%;
+}
+
 .item-news__date {
   font-weight: 500;
   font-size: 14px;
@@ -1506,20 +1510,6 @@ textarea {
             flex: 0 1 100%;
     margin: 0px 0px 30px 0px;
   }
-
-  .item-news {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-
-  .item-news__title {
-    padding: 0px 60px;
-  }
-
-  .item-news__text {
-    padding: 0px 60px;
-  }
 }
 
 @media (max-width: 520px) {
@@ -1562,14 +1552,6 @@ textarea {
 }
 
 @media (max-width: 482px) {
-  .item-news__title {
-    padding: 0px 40px;
-  }
-
-  .item-news__text {
-    padding: 0px 40px;
-  }
-
   .advantages {
     padding: 20px 15px;
   }
