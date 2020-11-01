@@ -843,6 +843,7 @@ textarea {
   -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.0677994);
           box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.0677994);
   padding: 20px;
+  height: 100%;
 }
 
 .item-news *:last-child {
@@ -866,6 +867,9 @@ textarea {
   line-height: 23px;
   color: #333333;
   margin: 0px 0px 20px 0px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
 }
 
 .item-news__text {
