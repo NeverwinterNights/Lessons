@@ -1596,6 +1596,12 @@ textarea {
   }
 }
 
+@media (max-width: 360px) {
+  .man__image img {
+    max-width: 290px;
+  }
+}
+
 ._webp .item-footer__elements:before{ background: url(../img/footer/1.webp) 0 0 no-repeat; }
 
 ._webp .item-footer__elements_vib:before{ background: url(../img/footer/2.webp) 0 0 no-repeat; }
